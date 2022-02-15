@@ -1,0 +1,31 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  overflow: hidden;
+}
+
+.post h1 {
+  font-size: xx-large;
+}
+
+.post h1,
+.post h3,
+.post p {
+  margin-top: 20px;
+}
+
+button {
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 10px;
+  border: none;
+  background-color: darkturquoise;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  width: 80%;
+  cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: darkturquoise;
+}
+
+.option {
+  text-decoration: none !important;
+  display: inline-block;
+  margin-left: 8px;
+  font-size: large;
+  font-weight: 700;
+  color: black;
+  padding: 10px;
+}
+
+.option:hover {
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+}

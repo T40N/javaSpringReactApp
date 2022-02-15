@@ -1,0 +1,16 @@
+.card {
+  overflow: hidden;
+  padding: 0 0 32px;
+  margin: 48px auto 0;
+  font-family: Quicksand, arial, sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05), 0 0px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  width: 70%;
+  overflow: hidden;
+}
+
+.card h1 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
